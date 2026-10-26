@@ -1,0 +1,6 @@
+{
+  "gateway_url": {"description": "网关根地址（不要加 /v1）", "type": "string", "default": "http://127.0.0.1:8790"},
+  "max_chars": {"description": "单条文本字数上限，应不超过网关上限", "type": "int", "default": 80},
+  "timeout_sec": {"description": "合成超时秒数", "type": "int", "default": 120},
+  "session_whitelist": {"description": "允许的会话 UMO，空列表允许全部；用 /sid 查询", "type": "list", "default": []}
+}
